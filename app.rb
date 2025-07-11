@@ -4,7 +4,9 @@ class MyApp < Sinatra::Base
 
   set :host_authorization, { permitted_hosts: [] }  
 
-  get '/' do
+  
+
+  get '/' do 
     '<!DOCTYPE html><html><body><h1>Goodbye TEsST</h1></body></html>'
   end
-end
+end 
